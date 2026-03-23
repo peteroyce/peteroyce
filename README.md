@@ -15,11 +15,15 @@ Full-stack developer building tools that solve real problems — from blockchain
 | Project | What it does |
 |---------|-------------|
 | [CharityGuard](https://github.com/peteroyce/CharityGuard) | Blockchain-powered charity fraud detection with AI risk scoring |
-| [wavechat](https://github.com/peteroyce/wavechat) | Self-hostable real-time chat — WebSocket rooms, no vendor lock-in |
+| [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) | ML model trained on 1.8M+ IRS records to predict nonprofit risk — XGBoost + SHAP + FastAPI |
 | [devscope-mcp](https://github.com/peteroyce/devscope-mcp) | MCP server for Claude — PR reviews, issue triage, repo search via natural language |
 | [kuration](https://github.com/peteroyce/kuration) | Semantic bookmark manager — retrieves links by meaning, not just title |
-| [paperwise](https://github.com/peteroyce/paperwise) | Talk to your documents — RAG pipeline with exact page citations |
-| [snipd](https://github.com/peteroyce/snipd) | CLI snippet manager — tag, search, and pipe code from your terminal |
+| [ledgr](https://github.com/peteroyce/ledgr) | Developer-first double-entry bookkeeping API with multi-currency support |
+| [wavechat](https://github.com/peteroyce/wavechat) | Self-hostable real-time chat — WebSocket rooms, no vendor lock-in |
+
+### Open-source contributions
+
+PRs to [FastAPI](https://github.com/fastapi/fastapi), [SHAP](https://github.com/shap/shap), [Chroma](https://github.com/chroma-core/chroma), [Deepgram JS SDK](https://github.com/deepgram/deepgram-js-sdk), [MCP Servers](https://github.com/modelcontextprotocol/servers), [UiPath Python](https://github.com/UiPath/uipath-python)
 
 ### Currently exploring
 
