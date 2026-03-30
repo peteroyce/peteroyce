@@ -1,30 +1,31 @@
 # Pete Royce
 
-Full-stack dev based in Bangalore. I mostly work with TypeScript and Python, and I like building tools that actually get used - CLI apps, real-time stuff, some blockchain.
+ML engineer based in Bangalore. I work mostly with Python and TypeScript, building models and tools around NLP, risk prediction, and retrieval systems.
 
 ### Tech I use
 
-**Languages:** TypeScript, JavaScript, Python, PHP, Rust, Solidity  
-**Frontend:** React, Next.js, Tailwind CSS  
-**Backend:** Node.js, Express, FastAPI  
-**Data:** MongoDB, MySQL, SQLite, ChromaDB  
-**Infra:** Docker, GitHub Actions, Netlify, WebSockets
+**ML/AI:** PyTorch, HuggingFace Transformers, scikit-learn, XGBoost, LightGBM, SHAP, Optuna
+**MLOps:** MLflow, Docker, GitHub Actions
+**Languages:** Python, TypeScript, JavaScript
+**Backend:** FastAPI, Node.js, Express
+**Data:** pandas, PostgreSQL, MongoDB, ChromaDB, SQLite
+**LLM tooling:** Claude API, MCP, LangChain, RAG pipelines
 
 ### Some things I've built
 
-- [CharityGuard](https://github.com/peteroyce/CharityGuard) - charity fraud detection with blockchain + ML
-- [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) - predicts nonprofit exempt status risk from IRS data
+- [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) - predicts nonprofit exempt status risk from 1.8M IRS records (XGBoost, SHAP)
+- [medscan](https://github.com/peteroyce/medscan) - fine-tuned PubMedBERT for medical abstract sentence classification
+- [mlflow-credit-risk](https://github.com/peteroyce/mlflow-credit-risk) - credit risk pipeline with MLflow tracking and model comparison
+- [paperwise](https://github.com/peteroyce/paperwise) - PDF Q&A with RAG, citation extraction, and page-level answers
+- [kuration](https://github.com/peteroyce/kuration) - bookmark manager with embedding-based semantic search
 - [devscope-mcp](https://github.com/peteroyce/devscope-mcp) - MCP server that hooks Claude into GitHub
-- [kuration](https://github.com/peteroyce/kuration) - bookmark manager with semantic search
-- [ledgr](https://github.com/peteroyce/ledgr) - bookkeeping API, multi-currency
-- [wavechat](https://github.com/peteroyce/wavechat) - self-hosted chat with WebSocket rooms
 
 ### Open source
 
 Contributed to [FastAPI](https://github.com/fastapi/fastapi), [SHAP](https://github.com/shap/shap), [Chroma](https://github.com/chroma-core/chroma), [Deepgram JS SDK](https://github.com/deepgram/deepgram-js-sdk), [MCP Servers](https://github.com/modelcontextprotocol/servers), [UiPath Python](https://github.com/UiPath/uipath-python)
 
-### Currently poking at
+### Currently working on
 
-- MCP integrations
-- On-chain verification
-- RAG pipelines and embedding search
+- Fine-tuning domain-specific transformers (biomedical NLP)
+- Experiment tracking and MLOps pipelines
+- RAG systems and embedding search
