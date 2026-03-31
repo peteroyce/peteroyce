@@ -1,32 +1,30 @@
-# Hey, I'm Pete Royce
+# Pete Royce
 
-Full-stack developer building tools that solve real problems — from blockchain fraud detection to real-time chat, developer CLIs to AI-powered document search.
+Full-stack dev based in Bangalore. I mostly work with TypeScript and Python, and I like building tools that actually get used - CLI apps, real-time stuff, some blockchain.
 
-### What I work with
+### Tech I use
 
-**Languages:** TypeScript, JavaScript, Python, PHP, Rust, Solidity
-**Frontend:** React, Next.js, Tailwind CSS
-**Backend:** Node.js, Express, FastAPI
-**Data:** MongoDB, MySQL, SQLite, ChromaDB
+**Languages:** TypeScript, JavaScript, Python, PHP, Rust, Solidity  
+**Frontend:** React, Next.js, Tailwind CSS  
+**Backend:** Node.js, Express, FastAPI  
+**Data:** MongoDB, MySQL, SQLite, ChromaDB  
 **Infra:** Docker, GitHub Actions, Netlify, WebSockets
 
-### Featured projects
+### Some things I've built
 
-| Project | What it does |
-|---------|-------------|
-| [CharityGuard](https://github.com/peteroyce/CharityGuard) | Blockchain-powered charity fraud detection with AI risk scoring |
-| [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) | ML model trained on 1.8M+ IRS records to predict nonprofit risk — XGBoost + SHAP + FastAPI |
-| [devscope-mcp](https://github.com/peteroyce/devscope-mcp) | MCP server for Claude — PR reviews, issue triage, repo search via natural language |
-| [kuration](https://github.com/peteroyce/kuration) | Semantic bookmark manager — retrieves links by meaning, not just title |
-| [ledgr](https://github.com/peteroyce/ledgr) | Developer-first double-entry bookkeeping API with multi-currency support |
-| [wavechat](https://github.com/peteroyce/wavechat) | Self-hostable real-time chat — WebSocket rooms, no vendor lock-in |
+- [CharityGuard](https://github.com/peteroyce/CharityGuard) - charity fraud detection with blockchain + ML
+- [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) - predicts nonprofit exempt status risk from IRS data
+- [devscope-mcp](https://github.com/peteroyce/devscope-mcp) - MCP server that hooks Claude into GitHub
+- [kuration](https://github.com/peteroyce/kuration) - bookmark manager with semantic search
+- [ledgr](https://github.com/peteroyce/ledgr) - bookkeeping API, multi-currency
+- [wavechat](https://github.com/peteroyce/wavechat) - self-hosted chat with WebSocket rooms
 
-### Open-source contributions
+### Open source
 
-PRs to [FastAPI](https://github.com/fastapi/fastapi), [SHAP](https://github.com/shap/shap), [Chroma](https://github.com/chroma-core/chroma), [Deepgram JS SDK](https://github.com/deepgram/deepgram-js-sdk), [MCP Servers](https://github.com/modelcontextprotocol/servers), [UiPath Python](https://github.com/UiPath/uipath-python)
+Contributed to [FastAPI](https://github.com/fastapi/fastapi), [SHAP](https://github.com/shap/shap), [Chroma](https://github.com/chroma-core/chroma), [Deepgram JS SDK](https://github.com/deepgram/deepgram-js-sdk), [MCP Servers](https://github.com/modelcontextprotocol/servers), [UiPath Python](https://github.com/UiPath/uipath-python)
 
-### Currently exploring
+### Currently poking at
 
-- Model Context Protocol (MCP) integrations
-- On-chain verification systems
+- MCP integrations
+- On-chain verification
 - RAG pipelines and embedding search
