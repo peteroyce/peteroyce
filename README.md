@@ -1,6 +1,7 @@
 # Hey, I'm Pete Royce
 
-ML Engineer based in India. I build models and developer tools around **NLP**, **risk prediction**, and **retrieval systems** — mostly with Python and TypeScript.
+**Applied AI / LLM Systems Engineer at HappiDost.ai · Freelance AI & ML Engineer since 2023.**
+I build production-grade systems — LLM applications, ML pipelines, microservices, and full-stack platforms.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pete-royce-saldanha/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/peteroyce)
@@ -25,25 +26,25 @@ ML Engineer based in India. I build models and developer tools around **NLP**, *
 #### ML & Data Science
 | Project | What it does |
 |---------|-------------|
-| [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) | Predicts nonprofit exempt status risk from 1.8M IRS records — XGBoost, SHAP |
+| [nonprofit-risk-model](https://github.com/peteroyce/nonprofit-risk-model) | XGBoost classifier predicting IRS nonprofit revocation — **0.88 ROC-AUC** on 1.8M+ records, SHAP explainability |
+| [spectral](https://github.com/peteroyce/spectral) | Real-time anomaly detection — 6 algorithms incl. LSTM Autoencoder & Spectral Residual FFT, WebSocket streaming |
+| [mlflow-credit-risk](https://github.com/peteroyce/mlflow-credit-risk) | Credit risk pipeline — **0.812 AUC** with Optuna tuning, MLflow experiment tracking, SHAP |
 | [medscan](https://github.com/peteroyce/medscan) | Fine-tuned PubMedBERT for medical abstract sentence classification (89% acc) |
-| [mlflow-credit-risk](https://github.com/peteroyce/mlflow-credit-risk) | Credit risk pipeline with MLflow tracking, Optuna tuning, and SHAP explanations |
 | [driftwatch](https://github.com/peteroyce/driftwatch) | ML model monitoring toolkit — data drift, model degradation, automated alerts |
-| [spectral](https://github.com/peteroyce/spectral) | Real-time anomaly detection engine for time-series data |
 
 #### AI & LLM Tools
 | Project | What it does |
 |---------|-------------|
 | [paperwise](https://github.com/peteroyce/paperwise) | PDF Q&A with RAG, citation extraction, and page-level answers (Claude + ChromaDB) |
 | [devscope-mcp](https://github.com/peteroyce/devscope-mcp) | MCP server that connects Claude to GitHub — PR reviews, issues, repo search |
-| [evalkit](https://github.com/peteroyce/evalkit) | LLM evaluation framework — benchmark models with automated scoring and analytics |
+| [evalkit](https://github.com/peteroyce/evalkit) | LLM evaluation framework — LLM-as-judge, Elo ratings, async batch scoring, multi-provider (OpenAI, Anthropic) |
 | [docminer](https://github.com/peteroyce/docminer) | Document intelligence pipeline — OCR, layout analysis, NER from PDFs and images |
 | [clipsearch](https://github.com/peteroyce/clipsearch) | Multi-modal semantic search powered by CLIP embeddings |
 
 #### Full-Stack & DevTools
 | Project | What it does |
 |---------|-------------|
-| [CharityGuard](https://github.com/peteroyce/CharityGuard) | Charity fraud detection with blockchain + AI risk scores — React, Node, MongoDB, Ethereum |
+| [CharityGuard](https://github.com/peteroyce/CharityGuard) | Charity fraud detection — blockchain + AI risk scores, 559K+ IRS records, Solidity contract |
 | [wavechat](https://github.com/peteroyce/wavechat) | Self-hostable chat app with WebSocket rooms and typing indicators |
 | [kuration](https://github.com/peteroyce/kuration) | Bookmark manager that finds saved links by meaning, not just title |
 | [ledgr](https://github.com/peteroyce/ledgr) | Double-entry bookkeeping API with multi-currency and spending analytics |
@@ -60,10 +61,10 @@ ML Engineer based in India. I build models and developer tools around **NLP**, *
 
 ### What I'm focused on
 
-- Fine-tuning domain-specific transformers (biomedical NLP)
+- Building production AI microservices (LLM routing, agent orchestration, OAuth flows)
 - MLOps pipelines and experiment tracking
-- RAG systems and embedding-based search
-- Building developer tools with MCP
+- RAG systems, embedding-based search, and LLM evaluation
+- Developer tooling with the Model Context Protocol (MCP)
 
 ---
 
